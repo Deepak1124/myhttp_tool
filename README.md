@@ -14,25 +14,25 @@ https://golang.org/doc/install
 
 # Getting Started
 Clone the git repository in your system and then cd into project root directory
-
+https://github.com/Deepak1124/myhttp_tool.git
 
 Build your tool by executing the following steps
-$ cd http_tool
+$ cd myhttp_tool
 $ go build
 
 
 
 # EXAMPLES
-$> go run .\myhttptool.go http://www.adjust.com http://google.com
+$ go run .\myhttptool.go http://www.adjust.com http://google.com
 http://www.adjust.com d1b40e2a2ba488a054186e4ed0733f9752f66949
 http://google.com 9d8ec921bdd275fb2a605176582e08758eb60641
 
 
-$> go run .\myhttptool.go adjust.com
+$ go run .\myhttptool.go adjust.com
 http://adjust.com d1b40e2a2ba488a054186e4ed0733f9752f66949
 
 
-$> go run .\myhttptool.go -parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com
+$ go run .\myhttptool.go -parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com
 reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com
 http://google.com 8ff1c478ccca08cca025b028f68b352f
 http://adjust.com 6b2560b9a5262571258cc173248b7492
