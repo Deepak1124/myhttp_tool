@@ -17,21 +17,25 @@ Clone the git repository in your system and then cd into project root directory
 https://github.com/Deepak1124/myhttp_tool.git
 
 Build your tool by executing the following steps
+```bash
 $ cd myhttp_tool
 $ go build
-
+```
 
 
 # EXAMPLES
+```bash
 $ go run .\myhttptool.go http://www.adjust.com http://google.com
 http://www.adjust.com d1b40e2a2ba488a054186e4ed0733f9752f66949
 http://google.com 9d8ec921bdd275fb2a605176582e08758eb60641
+```
 
-
+```bash
 $ go run .\myhttptool.go adjust.com
 http://adjust.com d1b40e2a2ba488a054186e4ed0733f9752f66949
+```
 
-
+```bash
 $ go run .\myhttptool.go -parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com
 reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com
 http://google.com 8ff1c478ccca08cca025b028f68b352f
@@ -43,7 +47,7 @@ http://reddit.com/r/funny ff3b2b7dcd9e716ca0adcbd208061c9a
 http://reddit.com/r/notfunny ff3b2b7dcd9e716ca0adcbd208061c9a
 http://yahoo.com e2d50a30b7bfbfda097d72e32578c6a6
 http://baroquemusiclibrary.com 8e5138a0111364f08b10d37ed3371b11
-
+```
 
 
 
